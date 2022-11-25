@@ -31,7 +31,7 @@ export default function Home() {
           <div className=' px-6 py-3  flex mt-3 ' >
             <div className=''>
 
-            <h2 className='text-3xl lg:text-5xl text-white sm:w-full'>Provide your customers with quick and simple financial services. </h2>
+            <h2 className='text-3xl lg:text-5xl text-white sm:w-2/3'>Provide your customers with quick and simple financial services. </h2>
             <p className='mt-3 text-white sm:w-2/3'>A retail service that offers incredible discounts and commissions for individuals, and small and
               medium-sized businesses. Sign up and begin to earn! </p>
               <button type="button" class="text-main bg-white mt-4 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -56,18 +56,18 @@ export default function Home() {
 
 
 
-<div className=' px-6 py-3 flex flex-col lg:flex-row-reverse lg:flex space-x-2 gap-2 h-fit '>
+<div className=' px-6 py-3 flex flex-col lg:flex-row-reverse lg:flex space-x-2 gap-2 h-fit lg:justify-between'>
 <img className='lg:h-96 hidden' src='https://res.cloudinary.com/dj3zrsni6/image/upload/v1669368485/future-resume/wallx/image_45_vdhoej.svg'/>
 
 
-  <div className=" lg:w-2/3  h-full">
+  <div className=" lg:w-1/2  h-full">
 <div className="mt-2">
   <h4 className='text-xs font-normal lg:text-sm text-dark '>POS Services for customers</h4>
   <p className='text-xl lg:text-4xl font-medium lg:w-full text-dark font-main ' >Instantaneously send and receive money to 
 any wallx agent or bank 
 account instantly.</p>
 </div>
-<div className="lg:grid lg:grid-cols-2 flex-wrap hidden lg:block   lg:max-w-2/3  mt-5">
+<div className="lg:grid lg:grid-cols-2 flex-wrap hidden lg:block   lg:w-2/3  mt-5">
   <div className="text-center p-5 bg-secondary w-40 h-24 rounded text-primary">
     Generate Pin Payment
   </div>
@@ -92,7 +92,7 @@ account instantly.</p>
 
 </div>
 
-<div className=' px-6 py-3 flex flex-col lg:flex-row-reverse lg:justify-around lg:items-center'>
+<div className=' px-6 py-3 flex flex-col lg:flex-row-reverse lg:justify-around lg:items-center mt-4'>
 <div className="mt-2">
   <h4 className='text-xs font-normal'>How can I become a WallX POS agent? </h4>
   <p className='text-2xl font-medium'>With WallX, being an agent is 
