@@ -138,7 +138,7 @@ now simple.</p>
 
 
 {/* lists */}
-<div className="bg-variant py-8 hidden ">
+<div className="bg-variant py-8 hidden lg:block">
 
 <div className="mt-2 flex  justify-between px-5 py-8 relative overflow-hidden bg-no-repeat bg-cover bg-variant" style={{
           // background: ` linear-gradient(107.47deg, rgba(79, 55, 146, 0.8036) -4.29%, rgba(124, 61, 206, 0.98) 121.97%)`,
@@ -274,7 +274,7 @@ number from any bank or using a the form.</p> */}
 {/* desktop */}
 
 
-<footer class=" dark:bg-gray-900 py-8 px-6 hidden">
+<footer class=" dark:bg-gray-900 py-8 px-6 hidden lg:block">
   <h3 className='text-4xl text-gray-200 text-left px-6 tracking-widest'>Share, Spend With Ease </h3>
     <div class="grid grid-cols-2  py-8 px-6 lg:grid-cols-5">
         <div>
