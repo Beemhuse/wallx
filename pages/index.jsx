@@ -67,7 +67,7 @@ export default function Home() {
 any wallx agent or bank 
 account instantly.</p>
 </div>
-<div className="lg:grid lg:grid-cols-2 flex-wrap hidden lg:block border border-red-400  lg:max-w-2/3  mt-5">
+<div className="lg:grid lg:grid-cols-2 flex-wrap hidden lg:block   lg:max-w-2/3  mt-5">
   <div className="text-center p-5 bg-secondary w-40 h-24 rounded text-primary">
     Generate Pin Payment
   </div>
